@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(8, 7, 7);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Netflix Font', sans-serif;
+                                                
+}
+
+.netfliximage{
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: ;
+    height: 35px;
+    background-color: rgb(7, 7, 7);
+    flex-shrink: 0;
+    position: fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    
+}
+
+.firstsection{
+    
+
+}
+
+
+.secondsection{
+    display: flex;
+   align-items: center;
+    justify-content: start;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-color:black;
+    width: 500px;
+    height: 100%;
+    font-size: 12px;
+    flex-shrink: 0;
+    
+
+
+}
+
+span{
+    font-weight: bold;
+}
+
+
+.lastsection{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    align-items: center;
+    margin-left: 400px;
+    flex-shrink: ;
+}
+.lastsectionimage{
+    height:30px
+}
+
+.main{
+    margin-top: 35px;
+    background-image: url(image/netflix.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 158px;
+    border: none;  
+    box-shadow: unset 1px 0px 10px red;
+    
+
+}
+h4{
+    color:white;
+    padding-top:30PX;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 
+}
+
+.mylistimage{
+    display: flex;
+    border: none;
+    margin-left: 20px;
+    margin-top: -22px;
+    gap: 2px;
+}
+
+.mylistimage img{
+    height: 110px;
+    width: 100px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+     border: none;
+     transition: height 0.15s;
+}
+ 
+.mylistimage img:hover{
+    height: 150px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;  
+    
+}
+
+
+  .mylistimagesecond{
+    display: flex;
+    margin-left: 20px;
+
+  }
+  .mylistimagethird{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .secondmain{
+    box-shadow: insert 10px 0px 100px red;
+    width: ;
+  }
